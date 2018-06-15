@@ -1,12 +1,12 @@
 using System.Web.Http;
 using WebActivatorEx;
-using CaiJiService;
+using CaiJi.API;
 using Swashbuckle.Application;
 using System;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace CaiJiService
+namespace CaiJi.API
 {
     public class SwaggerConfig
     {
@@ -33,7 +33,7 @@ namespace CaiJiService
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "CaiJiService");
+                        c.SingleApiVersion("v1", "CaiJi.API");
 
                         // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                         //
@@ -260,7 +260,7 @@ namespace CaiJiService
         /// <returns></returns>
         protected static string GetXmlCommentsPath(string name)
         {
-            return string.Format(@"{0}\bin\{1}.XML", AppDomain.CurrentDomain.BaseDirectory, name);
+            return string.Format(@"{0}\bin\{1}.xml", AppDomain.CurrentDomain.BaseDirectory, name);
         }
     }
 }

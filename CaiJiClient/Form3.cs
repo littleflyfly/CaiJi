@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using HtmlAgilityPack;
 
-namespace CaiJiClient
+namespace CaiJi.Client
 {
     public partial class Form3 : Form
     {

@@ -1,4 +1,4 @@
-namespace CaiJiService.Migrations
+namespace CaiJi.API.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

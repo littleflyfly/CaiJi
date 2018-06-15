@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace CaiJiService
+namespace CaiJi.API
 {
     public class FilterConfig
     {

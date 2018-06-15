@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 
-namespace CaiJiService.ApiControllers
+namespace CaiJi.API.ApiControllers
 {
     /// <summary>
     /// 用户控制器

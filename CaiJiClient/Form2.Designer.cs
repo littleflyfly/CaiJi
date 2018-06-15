@@ -1,4 +1,4 @@
-﻿namespace CaiJiClient
+﻿namespace CaiJi.Client
 {
     partial class Form2
     {

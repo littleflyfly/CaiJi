@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CaiJiService;
-using CaiJiService.Controllers;
+using CaiJi.API;
+using CaiJi.API.Controllers;
 
-namespace CaiJiService.Tests.Controllers
+namespace CaiJi.API.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

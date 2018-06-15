@@ -1,10 +1,10 @@
-﻿using CaiJiService.Models;
+﻿using CaiJi.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace CaiJiService.Repositories
+namespace CaiJi.API.Repositories
 {
     public partial class DbContextFactory
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace CaiJiService
+namespace CaiJi.API
 {
     public class BundleConfig
     {

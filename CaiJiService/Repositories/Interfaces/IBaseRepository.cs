@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
 
-namespace CaiJiService.Repositories.Interfaces
+namespace CaiJi.API.Repositories.Interfaces
 {
     public partial interface IBaseRepository<T> where T : class, new()
     {

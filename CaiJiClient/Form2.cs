@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CaiJiClient
+namespace CaiJi.Client
 {
     public partial class Form2 : Form
     {

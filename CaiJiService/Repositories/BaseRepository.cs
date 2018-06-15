@@ -1,4 +1,4 @@
-﻿using CaiJiService.Models;
+﻿using CaiJi.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
 
-namespace CaiJiService.Repositories
+namespace CaiJi.API.Repositories
 {
     public partial class BaseRepository<T> where T : class, new()
     {

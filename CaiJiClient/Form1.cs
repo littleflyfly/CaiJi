@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using System.IO;
-using CaiJiClient.Models;
-using CaiJiClient.Repositories;
+using CaiJi.Client.Models;
+using CaiJi.Client.Repositories;
 
-namespace CaiJiClient
+namespace CaiJi.Client
 {
     public partial class Form1 : Form
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CaiJiClient.Models
+namespace CaiJi.Client.Models
 {
     public class User
     {
