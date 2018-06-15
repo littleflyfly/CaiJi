@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.API", "CaiJiService\CaiJi.API.csproj", "{6D7D58EA-32D6-4C36-B5FC-31C5B0088B29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.API", "CaiJi.API\CaiJi.API.csproj", "{6D7D58EA-32D6-4C36-B5FC-31C5B0088B29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.API.Tests", "CaiJiService.Tests\CaiJi.API.Tests.csproj", "{C50F152E-9516-4894-BF4B-FC38D4B67091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.API.Tests", "CaiJi.API.Tests\CaiJi.API.Tests.csproj", "{C50F152E-9516-4894-BF4B-FC38D4B67091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.Client", "CaiJiClient\CaiJi.Client.csproj", "{9910083E-382E-405F-89F9-CDB0868D0049}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.Client", "CaiJi.Client\CaiJi.Client.csproj", "{9910083E-382E-405F-89F9-CDB0868D0049}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaiJi.Utils", "CaiJi.Utils\CaiJi.Utils.csproj", "{BD68CFAD-F18A-4576-99B2-71E64979A8C9}"
 EndProject
